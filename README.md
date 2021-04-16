@@ -52,7 +52,7 @@ speedtest友好的帮你把消耗量计算好了
 # 安装问题
 直接把speedtest程序和脚本下载到机器上,修改后，运行就行
 
-wget -O "/root/install.sh" "https://raw.githubusercontent.com/BlueSkyXN/lovespeed/main/install.sh" --no-check-certificate -T 30 -t 5 -d
+wget -O "/root/install.sh" "https://raw.githubusercontent.com/BlueSkyXN/lovespeed/main/install.sh" --no-check-certificate -T 30 -t 5 -d && sudo /root/install.sh
 
 首先使用Speedtest需要先授权,运行后输入YES
 
