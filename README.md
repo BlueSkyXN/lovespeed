@@ -1,5 +1,5 @@
 # lovespeed
-Shell脚本：自动测速speedtest并推送结果至tg(Telegram) 燃烧流量，锻炼小鸡
+Shell脚本：定时自动测速speedtest并推送结果至tg(Telegram) 燃烧流量&锻炼小鸡
 
 ## 简介
 
