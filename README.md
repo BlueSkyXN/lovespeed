@@ -50,19 +50,13 @@ speedtest友好的帮你把消耗量计算好了
 参考脚本语法，改起来很简单，框架原理就这样
 
 # 安装问题
-直接把speedtest程序和脚本下载到机器上，运行就行
+直接把speedtest程序和脚本下载到机器上,修改后，运行就行
 
-wget -O "/root/speedtest" "https://raw.githubusercontent.com/BlueSkyXN/ChangeSource/master/speedtest" --no-check-certificate -T 30 -t 5 -d
+wget -O "/root/install.sh" "https://raw.githubusercontent.com/BlueSkyXN/lovespeed/main/install.sh" --no-check-certificate -T 30 -t 5 -d
 
-chmod +x "/root/speedtest"
+首先使用Speedtest需要先授权,运行后输入YES
 
-chmod 777 "/root/speedtest"
-
-wget -O "/root/lovespeed.sh" "https://raw.githubusercontent.com/BlueSkyXN/lovespeed/main/lovespeed.sh" --no-check-certificate -T 30 -t 5 -d
-
-chmod +x "/root/lovespeed.sh"
-
-chmod 777 "/root/lovespeed.sh"
+/root/speedtest
 
 # 扩展用法
 参考语法，可以把各种脚本都做成这样，跑完发送结果到tg
