@@ -23,7 +23,7 @@ Text：后面为发送的字符，变量要加符号，直接换行空格都行�
 
 不过，我自己实验宝塔会出错，请在/var/spool/cron/root中　根据格式编辑 [分 时 日 月 星期]
 
-比如：　30 21 * * * bash /root/lovespeed.sh >> /dev/null 2>&1
+比如：　00 21 * * * bash /root/lovespeed.sh >> /dev/null 2>&1
 
 ### 循环测速
 
