@@ -50,6 +50,10 @@ Text：后面为发送的字符，变量要加符号，直接换行空格都行�
 
 比如：　00 21 * * * bash /root/lovespeed.sh > /dev/null 2>&1
 
+如果没有正常运行,需要额外添加环境变量,如
+
+00 21 * * * source /etc/profile;/bin/bash bash /root/lovespeed.sh > /dev/null 2>&1
+
 ### 循环测速
 
 最简单就是多来点定时任务，或者你直接把脚本copy进去放一块
